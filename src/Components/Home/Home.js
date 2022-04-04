@@ -1,5 +1,4 @@
 import React from "react";
-import { GiOpenBook } from "react-icons/gi";
 
 const Home = () => {
   return (

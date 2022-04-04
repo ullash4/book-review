@@ -7,6 +7,8 @@ import Dashboard from './Components/Dasboard/Dashboard';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact'
 import Notfound from "./Components/Notfound/Notfound";
+import Contextapi from './Components/Blog/Contextapi';
+import Inlineblock from './Components/Blog/Inlineblock'
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/review" element={<Review />}></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
-        <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/blog" element={<Blog />}>
+          <Route path="contextapi" element={<Contextapi></Contextapi>} />
+          <Route path="inlineblock" element={<Inlineblock></Inlineblock>} />
+        </Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="*" element={<Notfound />}></Route>
       </Routes>
