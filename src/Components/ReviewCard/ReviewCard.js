@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ReviewCard = ({rev}) => {
-    console.log(rev);
     const {name, picture, company, review, rating} = rev;
     return (
             <div className='shadow-xl bg-white rounded-lg p-7 m-5 flex flex-col items-center'>

@@ -11,12 +11,10 @@ const Home = () => {
               The best book you have ever read
             </h1>
             <p className="font-thin md:font-medium text-justify">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam{" "}
-              <br /> ducimus nihil ex ullam, ab possimus dolorem porro quisquam
-              saepe modi.
+            Reading fiction can allow you to temporarily escape your own world and <br /> become swept up in the imagined experiences of the characters. And nonfiction <br/> self-help books can teach you strategies that may help you manage symptoms.
             </p>
           </div>
-          <button className="py-2 px-3 bg-slate-400 rounded-lg font-semibold m-5">
+          <button className="py-2 px-3 bg-slate-400 rounded-lg font-semibold m-5 hover:bg-black hover:text-white">
             Read Books
           </button>
         </div>
@@ -25,7 +23,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <ReviewForHome></ReviewForHome>
+       <ReviewForHome></ReviewForHome>
       </div>
     </div>
   );

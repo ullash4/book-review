@@ -13,7 +13,7 @@ const ReviewForHome = () => {
                 review.slice(0, 3).map(rev=><ReviewCard rev={rev} key={rev.id}></ReviewCard>)
             }
         </div>
-            <Link to={'/review'}><button className="py-2 px-3 bg-slate-400 rounded-lg font-semibold m-5">See all Review</button></Link>
+            <Link to={'/review'}><button className="py-2 px-3 bg-slate-400 rounded-lg font-semibold m-5 hover:bg-black hover:text-white">See all Review</button></Link>
         </div>
     );
 };

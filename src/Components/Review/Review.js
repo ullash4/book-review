@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReview from '../Hooks/useReview';
 import ReviewCard from '../ReviewCard/ReviewCard';
 
@@ -12,6 +13,7 @@ const Review = () => {
                 review.map(rev=><ReviewCard rev={rev} key={rev.id}></ReviewCard>)
             }
         </div>
+        <Link to={'/home'}><button className="py-2 px-3 bg-slate-400 rounded-lg font-semibold m-5 hover:bg-black hover:text-white">Return Home</button></Link>
         </div>
     );
 };
