@@ -1,8 +1,8 @@
 # Projects Information
 
-## Website Name : [Book Review](https://github.com/facebook/create-react-app)
-## Website Live Link : [Live Site](https://github.com/facebook/create-react-app)
-## Website Repo Link : [Repo Link](https://github.com/facebook/create-react-app)
+## Website Name : [Book Review](https://book-review-c5a8a9.netlify.app/)
+## Website Live Link : [Live Site](https://book-review-c5a8a9.netlify.app/)
+## Website Repo Link : [Repo Link](https://book-review-c5a8a9.netlify.app/)
 
 ## Features
 
